@@ -103,7 +103,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"walk back",
-"speed": 5.0
+"speed": 10.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -120,7 +120,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"walk front",
-"speed": 5.0
+"speed": 10.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -137,7 +137,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"walk left",
-"speed": 5.0
+"speed": 10.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -154,7 +154,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"walk right",
-"speed": 5.0
+"speed": 10.0
 }]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_77l47"]
@@ -165,9 +165,8 @@ script = ExtResource("1_cfkcd")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_m276a")
-animation = &"idle"
+animation = &"walk back"
 autoplay = "idle"
-frame_progress = 0.768438
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, 3)

@@ -8,10 +8,12 @@
 [node name="Background" type="Sprite2D" parent="."]
 visibility_layer = 4
 z_index = -1
+position = Vector2(1, -1)
 texture = ExtResource("1_id877")
 
 [node name="player" parent="." instance=ExtResource("1_1qahm")]
 position = Vector2(19, 18)
 
 [node name="Camera2D" type="Camera2D" parent="player"]
-zoom = Vector2(4, 4)
+zoom = Vector2(8, 8)
+position_smoothing_enabled = true
