@@ -15,5 +15,4 @@ zoom = Vector2(8, 8)
 position_smoothing_enabled = true
 
 [node name="TileMap" parent="." instance=ExtResource("3_ewcgj")]
-y_sort_enabled = false
 position = Vector2(126, 186)
