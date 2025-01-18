@@ -563,13 +563,12 @@ script = ExtResource("1_cfkcd")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 z_index = 1
-y_sort_enabled = true
-position = Vector2(-16, -24)
+position = Vector2(-16, -25)
 sprite_frames = SubResource("SpriteFrames_m276a")
-animation = &"death"
+animation = &"attack front"
 autoplay = "idle front"
 centered = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0, -4)
+position = Vector2(-1, -6)
 shape = SubResource("CircleShape2D_77l47")
